@@ -1,6 +1,6 @@
 {
   "name": "social-media-url-validator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vaidates social media URLs, as the name says",
   "main": "index.js",
   "scripts": {
