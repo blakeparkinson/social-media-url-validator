@@ -1,0 +1,11 @@
+{
+  "name": "social-media-url-validator",
+  "version": "1.0.0",
+  "description": "Vaidates social media URLs, as the name says",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
