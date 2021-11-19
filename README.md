@@ -6,6 +6,7 @@ Make sure social media platforms are sent in exactly as written. Currently suppo
 3. linkedin
 4. instagram
 5. emailaddress
+6. website
 
 ##Usage
 
