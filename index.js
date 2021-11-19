@@ -3,11 +3,10 @@ exports.validate = (platform, socialMediaUrl) =>  {
     const regexMap = {
         facebook:
 		/^(https?:\/\/)?(?:www\.)?(?:facebook|fb|m\.facebook)\.(?:com|me)\/(?:(?:\w)*#!\/)?(?:pages\/)?(?:[\w-]*\/)*([\w\-]+\.?)(?:\/)?/i,
-	    instagram: /(http(?:s)?:\/\/)?(?:www\.)?instagram\.com\/([a-zA-Z0-9_]+)/,
-	    twitter: /(http(?:s)?:\/\/)?(?:www\.)?twitter\.com\/([a-zA-Z0-9_]+)/,
-
+	    instagram: /^(http(s)?:\/\/)?(?:www\.)?instagram\.com\/([a-zA-Z0-9_]+)/,
+	    twitter: /^(http(s)?:\/\/)?(?:www\.)?twitter\.com\/([a-zA-Z0-9_]+)/,
 	    linkedin:
-		/^(http(s)?:\/\/)?([\w]+\.)?linkedin\.com\/(pub|in|profile|company)\/([a-zA-Z0-9_]+)/,
+      /^(http(s)?:\/\/)?([\w]+\.)?linkedin\.com\/(pub|in|profile|company)\/([a-zA-Z0-9_]+)/,
 	    emailaddress: /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/,
         website: /^((https?):\/\/)?([w|W]{3}\.)+[a-zA-Z0-9\-\.]{3,}\.[a-zA-Z]{2,}(\.[a-zA-Z]{2,})?$/
     }
