@@ -7,7 +7,7 @@ exports.validate = (platform, socialMediaUrl) =>  {
 	    twitter: /^(http(s)?:\/\/)?(?:www\.)?twitter\.com\/([a-zA-Z0-9_]+)/,
 	    linkedin:
       /^(http(s)?:\/\/)?([\w]+\.)?linkedin\.com\/(pub|in|profile|company)\/([a-zA-Z0-9_]+)/,
-	    emailaddress: /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/,
+	    emailaddress: /^[_a-z0-9-]+(\.[_a-z0-9-]+)*(\+[a-z0-9-]+)?@[a-z0-9-]+(\.[a-z0-9-]+)*$/,
         website: /^((https?):\/\/)?([w|W]{3}\.)+[a-zA-Z0-9\-\.]{3,}\.[a-zA-Z]{2,}(\.[a-zA-Z]{2,})?$/
     }
     let isValid = false
